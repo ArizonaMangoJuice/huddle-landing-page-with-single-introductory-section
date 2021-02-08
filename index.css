@@ -68,6 +68,44 @@ header{
     background: linear-gradient(90deg, hsl(300, 69%, 71%) 35%, hsl(257, 40%, 49%) 100%);
 }
 
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.social-buttons{
+    padding: 0px 65px 0 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-button{
+    transition: .3s;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid white;
+    height: 55px;
+    width: 55px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.social-button:hover{
+    transition: .3s;
+    background: linear-gradient(90deg, hsl(300, 69%, 71%) 35%, hsl(257, 40%, 49%) 100%);
+
+}
+
+i{
+    font-size: 24px;
+}
+
 .logo{
     padding: 25px 20px;
 }
