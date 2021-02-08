@@ -37,7 +37,7 @@ header{
 }
 
 .image-container img{
-    /* min-height: 70vh; */
+    width: 100%;
 }
 
 .text-container{
@@ -122,3 +122,4 @@ i{
 .soft-magenta{
     background-color: hsl(300, 69%, 71%);
 }
+
