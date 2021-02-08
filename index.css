@@ -65,7 +65,7 @@ header{
 .text-container button:hover{
     transition: .3s;
     color: white;
-    background: linear-gradient(90deg, hsl(257, 40%, 49%) 35%, hsl(300, 69%, 71%) 100%);
+    background: linear-gradient(90deg, hsl(300, 69%, 71%) 35%, hsl(257, 40%, 49%) 100%);
 }
 
 .logo{
