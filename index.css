@@ -23,7 +23,6 @@ header{
     flex-wrap: nowrap;
     max-width: 1440px;
     margin: auto;
-    border: 1px solid white;
     justify-content: center;
     align-items: center;
 }
