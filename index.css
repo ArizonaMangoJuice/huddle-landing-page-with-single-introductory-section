@@ -21,6 +21,11 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    max-width: 1440px;
+    margin: auto;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
 }
 
 .image-container{
@@ -38,11 +43,12 @@ header{
 
 .text-container{
     width: 50%;
-    padding-right: 275px;
+    padding-right: 75px;
+    margin-left: 50px;
 }
 
 .text-container h1 {
-    padding: 125px 0 0 0 ;
+    padding: 15px 0 0 0 ;
     font-size: 52px;
 }
 
