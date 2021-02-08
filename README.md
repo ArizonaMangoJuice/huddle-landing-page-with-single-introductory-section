@@ -1,3 +1,4 @@
+[SITE LINK] (https://arizonamangojuice.github.io/huddle-landing-page-with-single-introductory-section/) this is the site that shows the repo.
 # Frontend Mentor - Huddle landing page with single introductory section
 
 ![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
