@@ -123,3 +123,73 @@ i{
     background-color: hsl(300, 69%, 71%);
 }
 
+@media only screen and (max-width: 767px) {
+    .logo{
+        padding: 5px 0px;
+    }
+
+    .logo img {
+        height: 35px;
+    }
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        max-width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-container{
+        width: 100%;
+        min-height: 40vh;
+        padding: 15px;
+        padding-bottom: 45px;
+    }
+
+    .text-container p {
+        font-size: 18px;
+    }
+
+    .text-container h1 {
+        width: 80%;
+        font-size: 22px;
+        padding: 0;
+        margin: auto;
+    }
+
+    .text-container{
+        width: 100%;
+        padding-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .text-container p {
+        padding: 15px;
+        margin-top: 5px;
+    }
+
+    .text-container button{
+        margin-top: 10px;
+    }
+
+    .social-buttons{
+        width: 100%;
+        padding: 0;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .social-button{
+        height: 35px;
+        width: 35px;
+    }
+
+    i{
+        font-size: 18px;
+    }
+}
